@@ -1,4 +1,4 @@
-let URL = "https://script.google.com/macros/s/AKfycbzihMrDwqTvJK7oJHoRt4avaaIcg9K-v0nhDUtt56NxQf0kodGqYme2R9STH4YvBXVc/exec";
+let URL = "https://script.google.com/macros/s/AKfycbxB_2RlmJVE1mQBqs70nsyJ077bDdgOzYdXun0vgUnXzbWmXq1TNUK2tbgaVjVIYy9H/exec";
 //生徒登校時
 function comeSt(name) {
     let student = JSON.parse(localStorage.getItem(name));
