@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    font-size: 3em;
+    background-color: #AAE1A8;
+    font-weight: bold;
+    color: white;
+}
+
+.header p {
+    margin: 0;
+    line-height: 10vh;
+}
+
+.contents {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    margin: 0;
+}
+
+.leff_content {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+}
+
+.schedule {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    overflow: auto;
+}
+
+.schedule_table {
+    margin: 0 auto;
+    width: 90%;
+    border-collapse: separate;
+    border: none;
+    border-spacing: 0px 10px;
+}
+
+.schedule_table tbody td,
+.schedule_table tfoot td {
+    text-align: center;
+}
+
+.schedule_table thead th {
+    color: #FFF;
+    font-weight: bold;
+    background-color: #AAE1A8;
+}
+
+.schedule_table thead th:nth-child(2) {
+    border-radius: 10px 0 0 0;
+}
+.schedule_table thead th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+.schedule_table th {
+    border: 0 none !important;
+}
+
+.schedule_table td {
+    border-bottom: 1px solid #AAE1A8;
+}
+
+/* ヘッダーセル先頭・ボディ項目・フッター項目 */
+.schedule_table tbody th,
+.schedule_table tfoot th,
+.schedule_table thead th:first-child {
+ background:none;
+ color:#666;
+ font-weight: bold;
+ line-height:4.5em;
+ text-align:right;
+}
+
+/*（共通）　項目の多いテーブルの幅を調整*/
+@media (max-width: 767px) {
+    .col6t th,
+    .col6t td{
+    font-size:0.4em;
+    padding: 10px 0px;
+    }
+    .col5t th,
+    .col5t td{
+    font-size:0.5em;
+    padding: 10px 0px;
+    }
+    .col4t th,
+    .col4t td{
+    font-size:0.7em;
+    padding: 10px 5px;
+    }
+    .col3t th,
+    .col3t td{
+    font-size:0.8em;
+    padding: 10px 10px;
+    }
+}
+
+.analysis {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+}
+
+.right_content {
+    width: 50%;
+    height: 100%;
+    float: right;
+    overflow: auto;
+}
+
+.student {
+    width: 80%;
+    height: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 4px solid;
+    border-radius: 10px;
+    border-color: #AAE1A8;
+    background-color: white;
+    color: black;
+}
+
+.head {
+    display: flex;
+}
+
+.student p {
+    margin: 0 0 0 2%;
+}
