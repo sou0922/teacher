@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>KITAKA</title>
+    <link rel="stylesheet" href="kitaka.css">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/push.js/1.0.7/push.min.js"></script>
+</head>
+
+<body onload="loading(),setDate(createTime(0))">
+    <div class="header">
+        <p id="title">&emsp;KITAKA</p>
+    </div>
+    <div class="contents">
+        <div class="leff_content">
+            <div class="schedule">
+                <table class="schedule_table" id="schedule_table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>予定時間</th>
+                            <th>登校時間</th>
+                            <th>在校時間</th>
+                            <th>帰宅時間</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="analysis">
+                <table class="schedule_table" id="note_table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>注意事項</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="right_content">
+        </div>
+    </div>
+    <button onclick="demo()">ボタン</button>
+    <script type="text/javascript" src="kitaka.js"></script>
+</body>
+</html>
